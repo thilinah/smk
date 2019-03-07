@@ -1,6 +1,6 @@
 {
   "name": "smk",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Formatted output generator via JavaScript",
   "main": "lib/index.js",
   "scripts": {
