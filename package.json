@@ -25,5 +25,6 @@
   "bugs": {
     "url": "https://github.com/thilinah/smk/issues"
   },
-  "homepage": "https://github.com/thilinah/smk#readme"
+  "homepage": "https://github.com/thilinah/smk#readme",
+  "dependencies": {}
 }
