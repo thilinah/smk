@@ -1,0 +1,29 @@
+{
+  "name": "smk",
+  "version": "1.0.0",
+  "description": "Formatted output generator via JavaScript",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thilinah/smk.git"
+  },
+  "bin": {
+    "smk": "bin/smk.js"
+  },
+  "keywords": [
+    "formatted",
+    "output",
+    "awk",
+    "awk",
+    "alternative"
+  ],
+  "author": "Thilina Hasantha",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/thilinah/smk/issues"
+  },
+  "homepage": "https://github.com/thilinah/smk#readme"
+}
