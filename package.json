@@ -1,6 +1,6 @@
 {
   "name": "smk",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Formatted output generator using JavaScript. Smk can be used  read piped output from a command and format it using JavaScript and pipe it to another command for further processing.",
   "main": "lib/index.js",
   "scripts": {

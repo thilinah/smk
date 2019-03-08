@@ -13,18 +13,18 @@ npm install -g smk
 ```
 
 ## Usage
-##### -e <js expression>: Javascript expression to transform input
+##### -e: Javascript expression to transform input
 ```bash
 ls / | smk -e"'\"' + data + '\"'"
 ```
-##### -f <js function>: Javascript function to transform input 
+##### -f: Javascript function to transform input 
 ```bash
 ls / | smk -f"(data) => '\"' + data + '\"'"
 ```
 
-##### -a -f <js function>: -a will pass the lines as an array to the function. The function will only be called once
+##### -a: will pass the lines as an array to the function. The function will only be called once
 ```bash
-ls / | smk -f"(data) => '\"' + data + '\"'"
+ls / | smk -a -f"(a) => JSON.stringify(a)"
 ```
 
 ## Examples
