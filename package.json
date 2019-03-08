@@ -1,7 +1,7 @@
 {
   "name": "smk",
-  "version": "1.0.1",
-  "description": "Formatted output generator via JavaScript",
+  "version": "1.1.0",
+  "description": "Formatted output generator using JavaScript. Smk can be used  read piped output from a command and format it using JavaScript and pipe it to another command for further processing.",
   "main": "lib/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
